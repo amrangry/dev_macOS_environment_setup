@@ -1,6 +1,8 @@
 # dev_macOS_environment_setup
 
-
+<p align="center">
+  <img src ="https://github.com/amrangry/dev_macOS_environment_setup/blob/master/GFX_ASSETS/dev_tools.jpg?raw=true"/>
+</p>
 
 # 1. Setup xCode
  ## 1- enable spell-checking in Xcode
@@ -8,7 +10,7 @@ You can enable this feature by going to Edit menu > Format > Spelling and Gramma
 Ref: https://sarunw.com/posts/spell-checking-in-xcode
 
 # 2. Xcode-Behaviors
-1. Download the Supported Scripts. https://github.com/amrangry/iOS-awesome-pods-/tree/master/xCode%20Behavior%20Scripts
+1. Download the Supported Scripts. https://github.com/amrangry/dev_macOS_environment_setup/tree/master/xCode%20Behavior%20Scripts
 3. Open Xcode.
 4. Open the Xcode preferences. Shortcuts: cmd,
 5. Select the behaviors tab.
@@ -30,7 +32,7 @@ Supercharge your terminal with styles, plugins and features! Since Apple replace
 Basically if you ever saw someone using a fancy terminal, chances are that he was using Oh My Zsh.
 
 <p align="center">
-  <img src ="https://github.com/amrangry/iOS-awesome-pods-/blob/master/GFX_ASSETS/oh_my_zch.jpg?raw=true"/>
+  <img src ="https://github.com/amrangry/dev_macOS_environment_setup/blob/master/GFX_ASSETS/oh_my_zch.jpg?raw=true"/>
 </p>
 
 Plugins are also a huge part of the Oh My Zsh ecosystem. My must haves are:
