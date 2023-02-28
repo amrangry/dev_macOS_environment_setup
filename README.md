@@ -1,7 +1,8 @@
-# dev_macOS_environment_setup
+
 
 <p align="center">
   <img src ="https://github.com/amrangry/dev_macOS_environment_setup/blob/main/GFX_ASSETS/dev_tools.jpg?raw=true"/>
+  # dev_macOS_environment_setup
 </p>
 
 # 1. Setup xCode
@@ -32,7 +33,7 @@ Supercharge your terminal with styles, plugins and features! Since Apple replace
 Basically if you ever saw someone using a fancy terminal, chances are that he was using Oh My Zsh.
 
 <p align="center">
-  <img src ="https://github.com/amrangry/dev_macOS_environment_setup/blob/master/GFX_ASSETS/oh_my_zch.jpg?raw=true"/>
+  <img src ="https://github.com/amrangry/dev_macOS_environment_setup/blob/main/GFX_ASSETS/oh_my_zch.jpg?raw=true"/>
 </p>
 
 Plugins are also a huge part of the Oh My Zsh ecosystem. My must haves are:
