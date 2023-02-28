@@ -1,7 +1,7 @@
 # dev_macOS_environment_setup
 
 <p align="center">
-  <img src ="https://github.com/amrangry/dev_macOS_environment_setup/blob/master/GFX_ASSETS/dev_tools.jpg?raw=true"/>
+  <img src ="https://github.com/amrangry/dev_macOS_environment_setup/blob/main/GFX_ASSETS/dev_tools.jpg?raw=true"/>
 </p>
 
 # 1. Setup xCode
