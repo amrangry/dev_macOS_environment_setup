@@ -5,10 +5,10 @@
 </p>
 
 # 1. Setup Xcode
- ## 1- enable spell-checking in Xcode
+ ## 1-1 Enable spell-checking in Xcode
 You can enable this feature by going to Edit menu > Format > Spelling and Grammar > Check Spelling While Typing.
 Ref: https://sarunw.com/posts/spell-checking-in-xcode
-## 2- adding files for unsupported iOS Devices 
+## 1-2 Adding files for unsupported iOS Devices 
 https://github.com/filsv/iOSDeviceSupport?
 
 # 2. Xcode-Behaviors
