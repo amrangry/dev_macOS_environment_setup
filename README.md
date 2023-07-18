@@ -11,7 +11,7 @@ Ref: https://sarunw.com/posts/spell-checking-in-xcode
 ## 2- adding files for unsupported iOS Devices 
 https://github.com/filsv/iOSDeviceSupport?
 
-#2. Xcode-Behaviors
+# 2. Xcode-Behaviors
 1. Download the Supported Scripts. https://github.com/amrangry/dev_macOS_environment_setup/tree/master/xCode%20Behavior%20Scripts
 3. Open Xcode.
 4. Open the Xcode preferences. Shortcuts: cmd,
