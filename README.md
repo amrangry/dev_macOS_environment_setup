@@ -3,7 +3,8 @@
 <p align="center">
   <img src ="https://github.com/amrangry/dev_macOS_environment_setup/blob/main/GFX_ASSETS/dev_tools.jpg?raw=true"/>
 </p>
-
+# 0. Mac OS
+   Upgrade Your Unsupported Mac To macOS Ventura https://www.youtube.com/watch?v=SSjkLO8BA2o
 # 1. Setup Xcode
  ## 1-1 Enable spell-checking in Xcode
 You can enable this feature by going to Edit menu > Format > Spelling and Grammar > Check Spelling While Typing.
