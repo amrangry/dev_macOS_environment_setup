@@ -3,6 +3,13 @@
 <p align="center">
   <img src ="https://github.com/amrangry/dev_macOS_environment_setup/blob/main/GFX_ASSETS/dev_tools.jpg?raw=true"/>
 </p>
+
+
+
+[] - Homebrew > https://brew.sh/
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
 # 0. Mac OS
    Upgrade Your Unsupported Mac To macOS Ventura https://www.youtube.com/watch?v=SSjkLO8BA2o
 # 1. Setup Xcode
