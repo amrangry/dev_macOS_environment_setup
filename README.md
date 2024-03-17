@@ -6,13 +6,10 @@
 
 
 
-[] - Homebrew > 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-
 -  Package manager for macOS
   - [x] [Homebrew](https://brew.sh/)
   - [ ] [macports](https://www.macports.org/install.php)
+  - [x] Ruby version manager [rbenv](https://github.com/rbenv/rbenv)
 -  Terminal Enhancements
   - [x] [Z Shell](https://ohmyz.sh/)
 -  Command Line
@@ -21,7 +18,6 @@
   - [x][cocoapods](https://guides.cocoapods.org/using/getting-started.html)
 -  Text Editors
   - [x] [Sublime](https://www.sublimetext.com/download_thanks?target=mac)
-
 
 
 # 0. Mac OS
