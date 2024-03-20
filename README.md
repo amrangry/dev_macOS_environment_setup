@@ -106,8 +106,27 @@ To get into it, press Esc and then : (the colon).
  and quit by entering :q
  You can combine these to save and exit by entering :wq
  However, if you're finished with your file, it's generally more convenient to type Shift-z-z from command mode
-
  write 
  :wq!   --> write and quite 
  :q!   quite without saving 
 ```
+
+#Repo clone from GitHup
+## Just simply follow these steps:
+- Create Personal Access Token on GitHub by Go to this [https://github.com/settings/tokens](link): (Profile -> settings -> developers setting -> personal access tokens). (don't go to repository setting; it's your profile setting)
+  - [x] From your GitHub account, go to Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token (Give your password) → Fillup the form → click Generate token → Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+  - [ ] Generate a new token and copy-paste it somewhere safely.
+  - [ ] Set Global config
+      ```ruby
+$ git config --global user.name "your_github_username"
+$ git config --global user.email "your_github_email"
+$ git config -l
+      ```
+  - [ ] Set Global config
+        Now cache the given record in your computer to remembers the token:
+
+$ git config --global credential.helper cache
+If needed, anytime you can delete the cache record by:
+
+$ git config --global --unset credential.helper
+$ git config --system --unset credential.helper
