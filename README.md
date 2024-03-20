@@ -111,22 +111,25 @@ To get into it, press Esc and then : (the colon).
  :q!   quite without saving 
 ```
 
-#Repo clone from GitHup
+#Repo clone from GitHup [Stackoverflow](https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed)
 ## Just simply follow these steps:
-- Create Personal Access Token on GitHub by Go to this [https://github.com/settings/tokens](link): (Profile -> settings -> developers setting -> personal access tokens). (don't go to repository setting; it's your profile setting)
-  - [x] From your GitHub account, go to Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token (Give your password) → Fillup the form → click Generate token → Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
-  - [ ] Generate a new token and copy-paste it somewhere safely.
+- Create Personal Access Token on GitHub
+  - [x] Go to this [link](https://github.com/settings/tokens) or From your GitHub account, go to Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token (Give your password) → click Generate token → Copy the generated Token, it will be something like [ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta]
+   [(don't go to repository setting; it's your profile setting)]
+  - [x] Generate a new token and copy-paste it somewhere safely.
   - [ ] Set Global config
-      ```ruby
+ ```ruby
 $ git config --global user.name "your_github_username"
 $ git config --global user.email "your_github_email"
 $ git config -l
-      ```
-  - [ ] Set Global config
-        Now cache the given record in your computer to remembers the token:
-
+ ```
+  - [ ] Now cache the given record in your computer to remembers the token:
+ ```ruby
 $ git config --global credential.helper cache
-If needed, anytime you can delete the cache record by:
-
+ ```
+  - [ ] If needed, anytime you can delete the cache record by:
+ ```ruby
 $ git config --global --unset credential.helper
 $ git config --system --unset credential.helper
+ ```
+
