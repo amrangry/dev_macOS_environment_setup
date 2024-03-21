@@ -117,6 +117,11 @@ To get into it, press Esc and then : (the colon).
   - [x] Go to this [link](https://github.com/settings/tokens) or From your GitHub account, go to Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token (Give your password) → click Generate token → Copy the generated Token, it will be something like [ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta]
    [(don't go to repository setting; it's your profile setting)]
   - [x] Generate a new token and copy-paste it somewhere safely.
+  - [x] Now search for an app in your Mac, named Keychain Access.
+  - [x] Search for github.com (if there are multiple GitHub logins then choose Kind: Internet password), double-click it.
+  - [x] Click on show password, then enter your Mac's password and hit Enter.
+  - [x] Past the token you generated in step 2 and click Save changes
+Or 
   - [ ] Set Global config
  ```ruby
 $ git config --global user.name "your_github_username"
