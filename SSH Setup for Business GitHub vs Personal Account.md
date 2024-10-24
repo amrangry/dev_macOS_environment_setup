@@ -1,5 +1,22 @@
 # SSH Setup for Business GitHub Account
 
+# Table of Contents
+- [Commands](#commands)
+- [Step 1: Check SSH Keys on Your Machine](#step-1-check-ssh-keys-on-your-machine)
+- [Step 2: Generate an SSH Key for Your Business Account](#step-2-generate-an-ssh-key-for-your-business-account)
+- [Step 3: Add the SSH Key to Your Business GitHub Account](#step-3-add-the-ssh-key-to-your-business-github-account)
+- [Step 4: Configure the SSH Config File for Multiple Accounts](#step-4-configure-the-ssh-config-file-for-multiple-accounts)
+- [Step 5: Test the SSH Configuration](#step-5-test-the-ssh-configuration)
+- [Step 6: Clone the Repository Using the Business SSH Configuration](#step-6-clone-the-repository-using-the-business-ssh-configuration)
+- [Step 7: Move to the Repository](#step-7-move-to-the-repository)
+- [Step 8: Confirm Everything Works](#step-8-confirm-everything-works)
+- [Step 9: Verify the Setup](#step-9-verify-the-setup)
+- [Step 10:-Optional-Configure Global Identity and Repository-specific Identity](#step-10-optional-configure-global-identity-and-repository-specific-identity)
+- [GitHub Contribution Graph can be combined by setting the Noreply Email to be the same in both Your Repository or Globally](#github-contribution-graph-can-be-combined-by-setting-the-noreply-email-to-be-the-same-in-both-your-repository-or-globally)
+- [(Optional) Use `.gitconfig` Includes for Easier Setup](#optional-use-gitconfig-includes-for-easier-setup)
+
+
+
 ## Commands 
 git remote set-url
   ```bash
@@ -134,19 +151,23 @@ git clone git@github.com:<company>/<reponame>.git
    ```
 ---
 
-## Step 9: (Optional) Configure Global Identity
-Set your global Git identity (if most repositories are personal):
+## Step 9: Verify the Setup
+Ensure everything is working as expected.
+
+---
+
+## Step 10:-Optional-Configure Global Identity and Repository-specific Identity
+### Global Identity
+- Set the identity for global Git identity:
 ```bash
 git config --global user.name "Your Personal Name"
 git config --global user.email "your.personal.email@example.com"
 ```
-Confirm the settings:
+- Confirm the settings:
 ```bash
 git config --global --list
 ```
----
-
-## Step 10: Configure Repository-specific Identity (Business Repo)
+### Repository-specific Identity (Business Repo)
 1. Navigate to the repository directory:
    ```bash
    cd /Users/amr.elghadban/Desktop/workspace/project_folder/repo
@@ -160,14 +181,22 @@ git config --global --list
    ```bash
    git config --list --local
    ```
+
+## GitHub Contribution Graph can be combined by setting the Noreply Email to be the same in both Your Repository or Globally
+
+## Globally
+```bash
+   git config --global user.email "2900952+amrangry@users.noreply.github.com"
+   git config --global user.name "Amr Angry"  
+```
+## Repository
+```bash
+  git config user.email "2900952+amrangry@users.noreply.github.com"
+  git config user.name "Amr Elghadban"
+```
+
 ---
-
-## Step 11: Verify the Setup
-Ensure everything is working as expected.
-
----
-
-## Step 12: (Optional) Use `.gitconfig` Includes for Easier Setup
+## (Optional) Use `.gitconfig` Includes for Easier Setup
 Use `.gitconfig` includes to manage multiple identities more efficiently.
 
 
