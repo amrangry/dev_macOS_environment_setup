@@ -194,6 +194,23 @@ git config --global --list
   git config user.email "2900952+amrangry@users.noreply.github.com"
   git config user.name "Amr Elghadban"
 ```
+## Rewrite Past Commits (Optional)
+If previous commits were made with the wrong email, you can rewrite them with the correct noreply email:
+
+Then, force-push the changes:
+
+```bash
+git filter-branch --env-filter '
+if [ "$GIT_COMMITTER_EMAIL" = "wrong-email@company.com" ]; then
+    export GIT_COMMITTER_EMAIL="2900952+amrangry@users.noreply.github.com"
+    export GIT_AUTHOR_EMAIL="2900952+amrangry@users.noreply.github.com"
+fi
+' -- --all
+```
+
+```bash
+ git push --force
+```
 
 ---
 ## (Optional) Use `.gitconfig` Includes for Easier Setup
