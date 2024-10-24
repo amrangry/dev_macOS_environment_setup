@@ -1,5 +1,12 @@
 # SSH Setup for Business GitHub Account
 
+## Commands 
+git remote set-url
+  ```bash
+   git remote set-url origin git@github.com-business:company/POSRetail_Php.git
+   ```
+---
+
 ## Step 1: Check SSH Keys on Your Machine
 1. Open your Terminal.
 2. Run the following command to check if there are any SSH keys already on your Mac:
@@ -162,3 +169,7 @@ Ensure everything is working as expected.
 
 ## Step 12: (Optional) Use `.gitconfig` Includes for Easier Setup
 Use `.gitconfig` includes to manage multiple identities more efficiently.
+
+
+
+
