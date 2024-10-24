@@ -17,7 +17,9 @@
 -  Package Managers for Programming Languages
   - [x][cocoapods](https://guides.cocoapods.org/using/getting-started.html)
 -  Text Editors
-  - [x] [Sublime](https://www.sublimetext.com/download_thanks?target=mac)
+  - [x] [Sublime Download](https://www.sublimetext.com/download_thanks?target=mac)
+- [SSH Setup for Business GitHub vs Personal Account]()
+  
 
 
 # 0. Mac OS
