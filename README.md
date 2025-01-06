@@ -112,31 +112,3 @@ To get into it, press Esc and then : (the colon).
  :wq!   --> write and quite 
  :q!   quite without saving 
 ```
-
-#Repo clone from GitHup [Stackoverflow](https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed)
-## Just simply follow these steps:
-- Create Personal Access Token on GitHub
-  - [x] Go to this [link](https://github.com/settings/tokens) or From your GitHub account, go to Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token (Give your password) → click Generate token → Copy the generated Token, it will be something like [ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta]
-   [(don't go to repository setting; it's your profile setting)]
-  - [x] Generate a new token and copy-paste it somewhere safely.
-  - [x] Now search for an app in your Mac, named Keychain Access.
-  - [x] Search for github.com (if there are multiple GitHub logins then choose Kind: Internet password), double-click it.
-  - [x] Click on show password, then enter your Mac's password and hit Enter.
-  - [x] Past the token you generated in step 2 and click Save changes
-Or 
-  - [ ] Set Global config
- ```ruby
-$ git config --global user.name "your_github_username"
-$ git config --global user.email "your_github_email"
-$ git config -l
- ```
-  - [ ] Now cache the given record in your computer to remembers the token:
- ```ruby
-$ git config --global credential.helper cache
- ```
-  - [ ] If needed, anytime you can delete the cache record by:
- ```ruby
-$ git config --global --unset credential.helper
-$ git config --system --unset credential.helper
- ```
-
