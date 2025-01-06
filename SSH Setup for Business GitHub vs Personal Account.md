@@ -121,7 +121,8 @@ Hi AmrAhmedElghadban! You've successfully authenticated, but GitHub does not pro
 ```
 ---
 
-## Step 6-1 (for new clone repo): Clone the Repository Using the Business SSH Configuration 
+## Step 6: Clone the Repository Using the Business SSH Configuration 
+- (for new clone repo)
 Use the business SSH alias:
 ```bash
 git clone git@github.com-business:<company>/<reponame>.git
@@ -131,7 +132,7 @@ git clone git@github.com-business:<company>/<reponame>.git
 git clone git@github.com:<company>/<reponame>.git
 ```
 ---
-## Step 6-2 (for existing clone repo): Clone the Repository Using the Business SSH Configuration 
+- (for existing clone repo)
 Navigate to your cloned repository:
 Open your terminal and go to the root directory of your cloned repository:
 
