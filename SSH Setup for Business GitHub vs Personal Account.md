@@ -20,7 +20,7 @@
 ## Commands 
 git remote set-url
   ```bash
-   git remote set-url origin git@github.com-business:company/POSRetail_Php.git
+   git remote set-url origin git@github.com-business:company/your-repo-name.git
    ```
 ---
 
@@ -36,10 +36,13 @@ git remote set-url
 1. Run the following command in Terminal to create a new SSH key:
    ```bash
    ssh-keygen -t ed25519 -C "amr.elghadban@adkatech.com"
+   ssh-keygen -t ed25519 -C "amr.elghadban@gseddiqiholding.com"
    ```
 2. When prompted, save the key as:
    ```bash
    /Users/amr.elghadban/.ssh/id_ed25519_business_amr_elghadban_adkatech
+
+   /Users/nabarawy/.ssh/id_ed25519_business_amr_elghadban_seddiqiholding
    ```
 3. Leave the passphrase empty (or add one for security).
 4. **Result:**
@@ -50,6 +53,11 @@ git remote set-url
    SHA256:4AAAAAAhXXXXXXXXXXDyK+M/L2bbbbSs amr.elghadban@adkatech.com
    ```
 ---
+
+Your identification has been saved in /Users/nabarawy/.ssh/id_ed25519_business_amr_elghadban_seddiqiholding
+Your public key has been saved in /Users/nabarawy/.ssh/id_ed25519_business_amr_elghadban_seddiqiholding.pub
+The key fingerprint is:
+SHA256:C/ngW1ybCnc7LLGMJDgPobbZ1u26a/60t4762wFgNac amr.elghadban@gseddiqiholding.com
 
 ## Step 3: Add the SSH Key to Your Business GitHub Account
 1. Copy the new public key to your clipboard:
@@ -76,17 +84,22 @@ git remote set-url
    ```
 3. Add the following configuration:
    ```
-   # Personal GitHub Account
-   Host github.com-personal
+   # --- Personal GitHub Account ---
+     Host github.com-personal
      HostName github.com
      User git
      IdentityFile ~/.ssh/id_ed25519
-
-   # Business GitHub Account
-   Host github.com-business
-     HostName github.com
-     User git
+     # UseKeychain yes
+     # AddKeysToAgent yes
+   # ----------------------------
+   
+   # --- Business GitHub Account ---
+      Host github.com-business
+      HostName github.com
+      User git
      IdentityFile ~/.ssh/id_ed25519_business_amr_elghadban_adkatech
+   # ----------------------------
+   
    ```
 4. Save the file:
    - Press `Ctrl + O`, then `Enter`.
@@ -108,7 +121,7 @@ Hi AmrAhmedElghadban! You've successfully authenticated, but GitHub does not pro
 ```
 ---
 
-## Step 6: Clone the Repository Using the Business SSH Configuration
+## Step 6-1 (for new clone repo): Clone the Repository Using the Business SSH Configuration 
 Use the business SSH alias:
 ```bash
 git clone git@github.com-business:<company>/<reponame>.git
@@ -118,7 +131,53 @@ git clone git@github.com-business:<company>/<reponame>.git
 git clone git@github.com:<company>/<reponame>.git
 ```
 ---
+## Step 6-2 (for existing clone repo): Clone the Repository Using the Business SSH Configuration 
+Navigate to your cloned repository:
+Open your terminal and go to the root directory of your cloned repository:
 
+```bash
+cd /path/to/your/repo
+```
+Check the current remote URL:
+Run the following command to see the current remote URL:
+
+```bash
+git remote -v
+```
+This will show something like:
+
+```bash
+origin  git@github.com:<company>/<reponame>.git (fetch)
+origin  git@github.com:<company>/<reponame>.git (push)
+```
+Update the remote URL to use your business SSH alias:
+Use the git remote set-url command to change the remote URL:
+
+```bash
+git remote set-url origin git@github.com-business:<company>/<reponame>.git
+```
+Verify the change:
+Run git remote -v again to confirm the URL has been updated:
+
+```bash
+git remote -v
+You should now see:
+```
+
+```bash
+origin  git@github.com-business:<company>/<reponame>.git (fetch)
+origin  git@github.com-business:<company>/<reponame>.git (push)
+```
+Test the connection:
+To ensure everything is working, you can run:
+
+
+```bash
+git fetch
+
+```
+
+---
 ## Step 7: Move to the Repository
 1. Decide where to move the repository:
    ```bash
