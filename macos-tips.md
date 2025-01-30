@@ -53,3 +53,8 @@ Common commands:
 ZZ      # Save and exit (shortcut)
 
 ```
+
+## **Modify text files via Nano** 📝 
+Press Ctrl + O to write (save) the file.
+Nano will ask for a file name. Just press Enter to confirm (it will save to the same file).
+After saving, press Ctrl + X to exit Nano.
