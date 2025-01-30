@@ -2,7 +2,7 @@
 - [x] [How to use macOS Recovery](How-to-use-macOS-Recovery!)
 - [x] [The Quickest Way to Show/Hide Hidden Files](The-Quickest-Way-to-Show|Hide-Hidden-Files)
 - [x] [Modify text files via terminal](Modify-text-files-via-terminal)
-
+- [x] [Modify text files via Nano](Modify-text-files-via-Nano)
 
 
 
