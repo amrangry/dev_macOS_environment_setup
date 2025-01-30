@@ -13,6 +13,7 @@
   - [x] [How to use macOS Recovery!](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/macos-tips.md#How-to-use-macOS-Recovery%21)
   - [x] [The Quickest Way to Show/Hide Hidden Files](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/macos-tips.md#The-Quickest-Way-to-Show%2FHide-Hidden-Files)
   - [x] [Modify text files via terminal](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/macos-tips.md#Modify-text-files-via-terminal)
+  - [x] [Modify-text-files-via-Nano](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/macos-tips.md#Modify-text-files-via-Nano)
 
 - [x] **Setup Xcode**
   - [x] [xcode setup](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/Xcode-setup.md)
