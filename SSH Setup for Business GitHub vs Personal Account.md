@@ -36,13 +36,10 @@ git remote set-url
 1. Run the following command in Terminal to create a new SSH key:
    ```bash
    ssh-keygen -t ed25519 -C "amr.elghadban@adkatech.com"
-   ssh-keygen -t ed25519 -C "amr.elghadban@gseddiqiholding.com"
    ```
 2. When prompted, save the key as:
    ```bash
    /Users/amr.elghadban/.ssh/id_ed25519_business_amr_elghadban_adkatech
-
-   /Users/nabarawy/.ssh/id_ed25519_business_amr_elghadban_seddiqiholding
    ```
 3. Leave the passphrase empty (or add one for security).
 4. **Result:**
@@ -54,8 +51,8 @@ git remote set-url
    ```
 ---
 
-Your identification has been saved in /Users/nabarawy/.ssh/id_ed25519_business_amr_elghadban_seddiqiholding
-Your public key has been saved in /Users/nabarawy/.ssh/id_ed25519_business_amr_elghadban_seddiqiholding.pub
+Your identification has been saved in /Users/amr.elghadban/.ssh/id_ed25519_business_amr_elghadban_seddiqiholding
+Your public key has been saved in /Users/amr.elghadban/.ssh/id_ed25519_business_amr_elghadban_seddiqiholding.pub
 The key fingerprint is:
 SHA256:C/ngW1ybCnc7LLGMJDgPobbZ1u26a/60t4762wFgNac amr.elghadban@gseddiqiholding.com
 
@@ -97,7 +94,7 @@ SHA256:C/ngW1ybCnc7LLGMJDgPobbZ1u26a/60t4762wFgNac amr.elghadban@gseddiqiholding
       Host github.com-business
       HostName github.com
       User git
-     IdentityFile ~/.ssh/id_ed25519_business_amr_elghadban_adkatech
+      IdentityFile ~/.ssh/id_ed25519_business_amr_elghadban_adkatech
    # ----------------------------
    
    ```
