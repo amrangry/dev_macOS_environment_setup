@@ -1,4 +1,4 @@
-# SSH Setup for Business GitHub Account
+# Setting Up Git for Multiple GitHub Accounts (Personal & Business)
 
 # Table of Contents
 - [Commands](#commands)
@@ -119,6 +119,7 @@ Hi AmrAhmedElghadban! You've successfully authenticated, but GitHub does not pro
 ---
 
 ## Step 6: Clone the Repository Using the Business SSH Configuration 
+> Clone Repositories Using Custom Host Aliases
 - (for new clone repo)
 Use the business SSH alias:
 ```bash
@@ -273,9 +274,6 @@ fi
 ## (Optional) Use `.gitconfig` Includes for Easier Setup
 Use `.gitconfig` includes to manage multiple identities more efficiently.
 
-
-
-## General clone for Repo
 #Repo clone from GitHup [Stackoverflow](https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed)
 ## Just simply follow these steps:
 - Create Personal Access Token on GitHub
@@ -302,6 +300,7 @@ $ git config --global credential.helper cache
 $ git config --global --unset credential.helper
 $ git config --system --unset credential.helper
  ```
+
 
 
 
