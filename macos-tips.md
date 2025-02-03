@@ -1,6 +1,7 @@
 # Table of content
 - [x] [How to use macOS Recovery](How-to-use-macOS-Recovery!)
 - [x] [The Quickest Way to Show/Hide Hidden Files](The-Quickest-Way-to-Show|Hide-Hidden-Files)
+- [x] [Prevent Future .DS_Store Files (Optional)](Prevent-Future-.DS_Store-Files-(Optional))
 - [x] [Modify text files via terminal](Modify-text-files-via-terminal)
 - [x] [Modify text files via Nano](Modify-text-files-via-Nano)
 
@@ -22,6 +23,13 @@
 
 ```ruby
  CMD + SHIFT + .
+```
+
+## **Prevent Future .DS_Store Files (Optional)**
+For macOS, run this command to stop creating .DS_Store files on network drives:
+
+```bash
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 ```
 
 ## **Modify text files via terminal** 📝 
