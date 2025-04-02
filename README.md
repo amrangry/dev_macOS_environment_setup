@@ -18,6 +18,7 @@
 
 - [x] **Setup Xcode**
   - [x] [xcode setup](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/Xcode-setup.md)
+  - [ ] [MacSpaceCleaner](https://github.com/sanketk2020/MacSpaceCleaner)
 
 - [x] **Text Editors**
   - [x] [Sublime Download](https://www.sublimetext.com/download_thanks?target=mac)
