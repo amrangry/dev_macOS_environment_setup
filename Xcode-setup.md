@@ -17,7 +17,7 @@ You can enable this feature by going to the **Edit** menu > **Format** > **Spell
 6. Create a name for the behavior (e.g., `Open Terminal`).
 7. Activate the **Run** checkbox.
 8. Click **Choose Script**.
-9. Right-click the name of the behavior you just created to assign a shortcut (e.g., `cmd + shift + 5`).
+9. Right-click the name of the behavior you just created to assign a shortcut (e.g., `cmd + shift + t`).
 
 **Note**:  
 To create a bash executable file, run the following:
