@@ -9,22 +9,25 @@
   - [ ] [macports](https://www.macports.org/install.php)
 
 - [x] **General**
-  - [x] [Z Shell via Oh My Zsh](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/Oh%20My%20Zsh.md)
-  - [x] [How to use macOS Recovery!](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/macos-tips.md#How-to-use-macOS-Recovery%21)
-  - [x] [The Quickest Way to Show/Hide Hidden Files](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/macos-tips.md#The-Quickest-Way-to-Show%2FHide-Hidden-Files)
-  - [x] [Prevent Future .DS_Store Files (Optional)](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/macos-tips.md#Prevent-Future-.DS_Store-Files-(Optional))
-  - [x] [Modify text files via terminal](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/macos-tips.md#Modify-text-files-via-terminal)
-  - [x] [Modify-text-files-via-Nano](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/macos-tips.md#Modify-text-files-via-Nano)
+  - [x] [Z Shell via Oh My Zsh](Oh%20My%20Zsh.md)
+  - [x] [How to use macOS Recovery!](macos-tips.md#How-to-use-macOS-Recovery%21)
+  - [x] [The Quickest Way to Show/Hide Hidden Files](macos-tips.md#The-Quickest-Way-to-Show%2FHide-Hidden-Files)
+  - [x] [Prevent Future .DS_Store Files (Optional)](macos-tips.md#Prevent-Future-.DS_Store-Files-(Optional))
+  - [x] [Modify text files via terminal](macos-tips.md#Modify-text-files-via-terminal)
+  - [x] [Modify-text-files-via-Nano](macos-tips.md#Modify-text-files-via-Nano)
 
-- [x] **Setup Xcode**
-  - [x] [xcode setup](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/Xcode-setup.md)
+- [x] **🛠 XCode Setup **
+  - [x] [xcode setup](Xcode-setup.md)
   - [ ] [MacSpaceCleaner](https://github.com/sanketk2020/MacSpaceCleaner)
+        
+- [x] **🛠 PhpStorm CLI Setup on macOS** 
+  - [x] [Php](PhpStorm-setup.md)
 
 - [x] **Text Editors**
   - [x] [Sublime Download](https://www.sublimetext.com/download_thanks?target=mac)
 
 - [x] **GitHub - SSH Access**      
-  - [x] [SSH Setup for Business GitHub vs Personal Account](https://github.com/amrangry/dev_macOS_environment_setup/blob/main/SSH%20Setup%20for%20Business%20GitHub%20vs%20Personal%20Account.md)
+  - [x] [SSH Setup for Business GitHub vs Personal Account](SSH%20Setup%20for%20Business%20GitHub%20vs%20Personal%20Account.md)
 
 - [x] **Package Managers for Programming Languages**
   - [x] [CocoaPods](https://guides.cocoapods.org/using/getting-started.html)
@@ -64,7 +67,7 @@
 ## **Contributing 🤘**
 
 All your feedback and help to improve this project is very welcome. 
-Please create issues for your bugs, ideas and enhancement requests, or better yet, contribute directly by creating a PR. 😎
+Please create issues for your bugs, ideas & enhancement requests, or better yet, contribute directly by creating a PR. 😎
 
 When reporting an issue, please add a detailed instruction, and if possible a code snippet or test that can be used as a reproducer of your problem. 💥
 
