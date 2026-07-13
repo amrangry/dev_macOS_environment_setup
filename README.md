@@ -20,8 +20,10 @@
   - [x] [xcode setup](Xcode-setup.md)
   - [ ] [MacSpaceCleaner](https://github.com/sanketk2020/MacSpaceCleaner)
         
-- [x] **🛠 PhpStorm CLI Setup on macOS** 
-  - [x] [Php](PhpStorm-setup.md)
+- [x] **🛠 CLI shortcuts Setup on Mac -command line interface - ** 
+>> Standardized terminal configuration for React Native, PHP, WordPress, AI Development Tools, and IDE Launchers
+  - [x] [CLI Standardized Configuration](cli-configuration.md)
+  - [x] [PhpStorm CLI Setup on macOS](PhpStorm-setup.md)
 
 - [x] **Text Editors**
   - [x] [Sublime Download](https://www.sublimetext.com/download_thanks?target=mac)
@@ -32,7 +34,7 @@
 - [x] **Package Managers for Programming Languages**
   - [x] [CocoaPods](https://guides.cocoapods.org/using/getting-started.html)
   - [ ] NPM
-  - [ ] Composer
+  - [x] [Composer][PhpStorm CLI Setup on macOS](PhpStorm-setup.md)
   - [ ] etc...
 
 <p>&nbsp;</p>
