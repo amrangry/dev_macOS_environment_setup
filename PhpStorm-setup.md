@@ -16,3 +16,18 @@
     ```Terminal
      phpstorm .
    ```
+
+- [x] **composer**
+  
+  1. Add composer to Your PATH by edit your shell config file (.zshrc for zsh users):
+   ```Terminal
+     open -e ~/.zshrc
+   ```
+  2. Then add the following line at the end of the file:
+    ```Terminal
+     export PATH="$HOME/.composer/vendor/bin:$PATH"
+   ```
+  3. Apply the Changes (In the terminal, reload the config):
+    ```Terminal
+     source ~/.zshrc
+   ```
