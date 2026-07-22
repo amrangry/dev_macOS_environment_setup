@@ -40,6 +40,34 @@
   - [x] [Composer][PhpStorm CLI Setup on macOS](PhpStorm-setup.md)
   - [ ] etc...
 
+ 
+- [x] **AI**
+   - [x] [OpenCode](https://opencode.ai/) OpenCode is an open source AI coding agent. It’s available as a terminal-based interface, desktop app, or IDE extension.
+	- [x] docs https://opencode.ai/docs
+	- [x] Run OpenCode 
+		```
+	       Terminal window opencode
+		```
+   - [x] Next, initialize OpenCode for the project by running the following command.
+      This will get OpenCode to analyze your project and create an AGENTS.md file in the project root.
+		```
+			/init
+		```
+   - [x] Opens a model picker showing all available models from your configured providers:
+		```
+		Type /models and press Enter
+		```
+		To set a default model in config:
+		Edit your **opencode.json** file:
+		For example: "model": "anthropic/claude-sonnet-4-20250514" or "model": "opencode/gpt-5.1-codex".
+		```
+		{
+		  "model": "provider/model-id"
+		}
+		```
+
+
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
