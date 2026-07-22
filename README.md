@@ -77,6 +77,7 @@
 <summary>🦙 Local LLM</summary>
 
 - [x] [ollama](https://ollama.com/) Run local AI models on your machine.
+ - [X] [Ollama Models list](https://ollama.com/search?c=tools)
 
 </details>
 
