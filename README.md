@@ -10,6 +10,9 @@
 
 - [x] **General**
   - [x] [Z Shell via Oh My Zsh](Oh%20My%20Zsh.md)
+  - [x] Modern Terminal
+   - [x] [WezTerm](https://wezterm.org)
+   - [x] [Ghostty](https://ghostty.org/)
   - [x] [How to use macOS Recovery!](macos-tips.md#How-to-use-macOS-Recovery%21)
   - [x] [The Quickest Way to Show/Hide Hidden Files](macos-tips.md#The-Quickest-Way-to-Show%2FHide-Hidden-Files)
   - [x] [Prevent Future .DS_Store Files (Optional)](macos-tips.md#Prevent-Future-.DS_Store-Files-(Optional))
