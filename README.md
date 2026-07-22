@@ -69,20 +69,207 @@
     }
     ``` 
 </details>
-
- 
 </details>
 
 <details>
-<summary>🦙 Local LLM</summary>
+<summary>🦙 Ollama -Local LLM-</summary>
 
-- [x] [ollama](https://ollama.com/) Run local AI models on your machine.
- - [X] [Ollama Models list](https://ollama.com/search?c=tools)
+ - [x] [ollama](https://ollama.com/) Run local AI models on your machine.
+ - [X] [Ollama Models list](https://ollama.com/search?c=tools) or [models library](https://ollama.com/library)
+
+<details>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>⚙️ Ollama Configuration (One-Time Setup)</strong></summary>
+
+### Create Configuration File
+
+```bash
+mkdir -p ~/.ollama
+nano ~/.ollama/config.yaml
+```
+
+### Content
+
+```yaml
+api:
+  enabled: true
+  address: 0.0.0.0:11434
+```
+
+### Test Configuration
+
+```bash
+curl http://localhost:11434/v1/models
+```
+
+If JSON containing your models is returned, the OpenAI-compatible API is enabled successfully.
+
+</details>
+
+<details>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>⌨️ Useful Ollama Commands</strong></summary>
+
+### Check Running Processes
+
+```bash
+ps aux | grep ollama
+```
+
+### Start Server
+
+```bash
+ollama serve
+```
+
+### Download Model
+
+```bash
+ollama pull <model-name>
+```
+
+Example:
+
+```bash
+ollama pull qwen3:latest
+```
+
+### Run Model
+
+```bash
+ollama run <model-name>
+```
+
+Example:
+
+```bash
+ollama run qwen3:latest
+```
+
+### List Installed Models
+
+```bash
+ollama list
+```
+
+### Show Model Details
+
+```bash
+ollama show <model-name>
+```
+
+### Create Custom Model
+
+```bash
+ollama create
+```
+
+### Remove Model
+
+```bash
+ollama rm <model-name>
+```
+
+</details>
+</details>
+
+<details>
+<summary><strong>🖥️ Cursor + Local LLM</strong></summary>
+
+### Overview
+
+- Cursor needs **Ollama running** when you use a local model.
+- Use either **Ollama.app** or **`ollama serve`** from terminal.
+- Your **config.yaml is permanent** and normally only needs to be configured once.
+
+#### Verify Ollama is running
+
+- http://localhost:11434/v1/models
+- http://localhost:11434/
+
+  <details>
+<summary><strong>&nbsp;&nbsp;&nbsp;&nbsp;🎯 Configure Cursor (One-Time)</strong></summary>
+
+### OpenAI Settings
+
+1. Open **Cursor → Settings → Models → OpenAI**
+2. Enable **Override OpenAI Base URL**
+3. Set Base URL:
+
+```text
+http://localhost:11434/v1
+```
+
+Original value:
+
+```text
+https://api.openai.com/v1
+```
+
+4. Set any non-empty API Key:
+
+```text
+ollama
+```
+
+5. Add your local models:
+
+- `qwen3:latest`
+- `gpt-oss:20b`
+- `llama3.1:8b`
+- `deepseek-r1:7b`
+-  etc...
+
+This only needs to be done once unless you reinstall Cursor.
+
+</details>
 
 </details>
 
 
 
+<details>
+<summary><strong>🏗️ Architecture Summary (My Setup)</strong></summary>
+
+```text
+macOS
+│
+├── Ollama (local runtime)
+│     ├── deepseek-r1:7b
+│     ├── mistral:7b
+│     └── llama3.1:8b
+│
+├── CLI tools
+│     ├── ollama run
+│     └── groq (optional)
+│
+└── Cursor IDE
+      ├── Local LLM (Ollama)
+      └── Cloud LLM (optional)
+```
+
+</details>
+
+<details>
+<summary><strong>✔ Hardware Requirements</strong></summary>
+
+| RAM | Recommended Models |
+|------|------|
+| 16 GB | Small models (7B) |
+| 32 GB | Medium models (13B) |
+| 64 GB+ | Large models (33B / 70B quantized) |
+
+</details>
+
+<details>
+<summary><strong>🏆 Model Ranking (Reasoning + Coding)</strong></summary>
+
+1. **Qwen3 (latest)** — Best balance of speed and intelligence
+2. **GPT‑OSS 20B** — Strongest reasoning, but heavier
+3. **Llama 3.1 (8B)** — Excellent general-purpose model
+4. **DeepSeek‑R1 (7B)** — Strong for logic and math
+5. **Qwen2.5 (7B)** — Good but older generation
+6. **Mistral 7B** — Fastest, but weaker reasoning
+
+</details>
 
 
 <p>&nbsp;</p>
